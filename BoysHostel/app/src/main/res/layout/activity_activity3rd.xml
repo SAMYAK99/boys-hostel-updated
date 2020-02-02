@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backdesign2"
+    tools:context=".activity3rd">
+
+    <Button
+        android:id="@+id/btn_mess"
+        android:layout_width="329dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="68dp"
+        android:text="HOSTEL  MESS"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_fees"
+        android:layout_width="137dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="104dp"
+        android:text="HOSTEL FEES"
+        android:textColor="#F50057"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mess" />
+
+    <Button
+        android:id="@+id/btn_anti"
+        android:layout_width="137dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginBottom="77dp"
+        android:text="ANTI  RAGGING"
+        android:textColor="#C62828"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_fees"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="137dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="40dp"
+        android:text="ABOUT  HOSTEL "
+        android:textColor="#4F16D3"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_dean"
+        android:layout_width="137dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="34dp"
+        android:text="HOSTEL DEAN"
+        android:textColor="#FF3D00"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_fees"
+        app:layout_constraintTop_toBottomOf="@+id/btn_about" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
