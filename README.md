@@ -1,2 +1,6 @@
 # boys-hostel-updated
-this is the official jss boys hostel app
+Created in Android Studio , this app contains the features like mess menu , time etc...
+
+Technolgy Stack - 
+         Frontend - XML
+         Backend -  Java
