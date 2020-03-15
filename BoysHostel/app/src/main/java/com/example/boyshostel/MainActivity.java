@@ -12,11 +12,11 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText EName;
-    private EditText Password;
-    private TextView Info;
-    private Button Login;
-    private int counter = 3;
+     EditText EName;
+     EditText Password;
+     TextView Info;
+     Button Login;
+       int counter = 3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +24,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        EName = (EditText) findViewById(R.id.etName);
-        Password = (EditText) findViewById(R.id.etPassword);
-        Info = (TextView) findViewById(R.id.tvInfo);
-        Login = (Button) findViewById(R.id.btnLogin);
+        EName = findViewById(R.id.etName);
+        Password =  findViewById(R.id.etPassword);
+        Info =  findViewById(R.id.tvInfo);
+        Login =  findViewById(R.id.btnLogin);
         Info.setText("No of attempts remaining:"  + String.valueOf(counter));
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
