@@ -19,12 +19,12 @@ public class activity3rd extends AppCompatActivity {
 
 
 
-        jtn_one=(Button)findViewById(R.id.btn_mess);
-        jtn_two=(Button)findViewById(R.id.btn_anti);
-        jtn_three=(Button)findViewById(R.id.btn_fees);
-        jtn_four=(Button)findViewById(R.id.btn_dean);
+        jtn_one=findViewById(R.id.btn_mess);
+        jtn_two=findViewById(R.id.btn_anti);
+        jtn_three=findViewById(R.id.btn_fees);
+        jtn_four=findViewById(R.id.btn_dean);
 
-        jtn_six=(Button)findViewById(R.id.btn_about);
+        jtn_six=findViewById(R.id.btn_about);
 
 
         jtn_two.setOnClickListener(new View.OnClickListener() {
