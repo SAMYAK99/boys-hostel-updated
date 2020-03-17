@@ -16,7 +16,7 @@ public class activity2nd extends AppCompatActivity {
         setContentView(R.layout.activity_activity2nd);
 
 
-        btn_one =(Button)  findViewById(R.id.btn_next); {
+        btn_one = findViewById(R.id.btn_next); {
 
 
             btn_one.setOnClickListener(new View.OnClickListener() {
